@@ -1,6 +1,6 @@
 # botty
 ### A library for quick and easy creation of telegram bots based on [telegram-bot-api](github.com/go-telegram-bot-api/telegram-bot-api).
-### Use simple handlers for messages as you would do in a library net/http.
+### Use simple handlers for messages as you would do in a [net/http](https://cs.opensource.google/go/go/+/master:src/net/http/) library.
 
 # Example Message Handle
  ```go
