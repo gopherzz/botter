@@ -1,5 +1,4 @@
 package botty
 
-import tgbotapi "github.com/go-telegram-bot-api/telegram-bot-api"
-
-type Handler func(tgbotapi.Update, chan<- Message)
+type Handler func(MessageIn, chan<- Message)
+type DefaultHandler func(MessageIn, chan<- Message)
